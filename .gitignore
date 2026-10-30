@@ -8,3 +8,27 @@ dist/
 .DS_Store
 .vercel/
 coverage/
+
+# Credentials and local runtime state
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.rdb
+*.sqlite
+*.sqlite3
+*.har
+
+# Private development captures and analysis artifacts
+.artifacts/
+.codex/audits/
+docs/screenshots/
+docs/shell-theme-previews/
+docs/ui-demo-direction-options/
+docs/ui-demo-report/assets/
+docs/ui-reference-assets/
+/*.pdf
+docs/**/*.pdf

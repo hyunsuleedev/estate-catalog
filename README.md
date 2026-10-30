@@ -1,6 +1,6 @@
 # Estait public property catalog
 
-Map-first public property website extracted from `hyunsuleedev/estate-erp` (`3f739dc`).
+Map-first public property website extracted from `hyunsuleedev/estate-erp`.
 The repository contains the consumer frontend only. NestJS APIs, migrations, and ERP workflows remain in the ERP repository.
 
 ## Development
@@ -32,4 +32,4 @@ Build command: `pnpm build`. Output directory: `dist`.
 ## Current limits
 
 Map authentication and real consumer-to-ERP delivery still require environment verification. The existing request API is the initial implementation; the planned recipient inbox and worker architecture are not implemented yet.
-No local credentials or production customer records are included intentionally. Public release remains subject to repository and history review.
+No local credentials or production customer records are included intentionally. See SECURITY.md for secret-handling and private reporting guidance.
